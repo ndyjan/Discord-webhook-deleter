@@ -1,4 +1,27 @@
 import requests
+import time
+import colorama
+
+print("Discord Webhook Deleter by Nexus Tools")
+time.sleep(1)
+print("Loading...")
+time.sleep(1) 
+
+print(f"""{colorama.Fore.LIGHTMAGENTA_EX}
+   ███▄    █ ▓█████ ▒██   ██▒ █    ██   ██████ 
+   ██ ▀█   █ ▓█   ▀ ▒▒ █ █ ▒░ ██  ▓██▒▒██    ▒ 
+  ▓██  ▀█ ██▒▒███   ░░  █   ░▓██  ▒██░░ ▓██▄   
+  ▓██▒  ▐▌██▒▒▓█  ▄  ░ █ █ ▒ ▓▓█  ░██░  ▒   ██▒
+  ▒██░   ▓██░░▒████▒▒██▒ ▒██▒▒▒█████▓ ▒██████▒▒
+  ░ ▒░   ▒ ▒ ░░ ▒░ ░▒▒ ░ ░▓ ░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░
+ ░  ░░   ░ ▒░ ░ ░  ░░░   ░▒ ░░░▒░ ░ ░ ░ ░▒  ░ ░
+    ░   ░ ░    ░    ░    ░   ░░░ ░ ░ ░  ░  ░  
+          ░    ░  ░ ░    ░     ░           ░  
+          
+          ╘ discord.gg/nexus-tools ╛ 
+            ――――――――――――――――――――――
+            """)
+time.sleep(1)
 
 def delete_webhook(webhook_url):
     headers = {
