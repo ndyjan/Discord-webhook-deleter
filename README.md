@@ -1,6 +1,6 @@
 # Discord-webhook-deleter
 A Simple webhook deleter made in Python
-[![Join the Discord at [https://gitter.im/MinecraftForge/ForgeGradle](https://discord.gg/nexus-tools)](https://badges.gitter.im/Join%20Discord.svg)](https://gitter.im/MinecraftForge/ForgeGradle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+pip install requests
+Run start.bat
 
-Minecraft mod development framework used by Forge and FML for the gradle build system
 For help contact wlr#9999
