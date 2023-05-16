@@ -1,7 +1,7 @@
 # Discord-webhook-deleter
 <a href="" class="discord-button">Simple discord webhook deleter</a>
 
-pip install requests
+pip install -r requirements.tx
 
 Run start.bat
 
